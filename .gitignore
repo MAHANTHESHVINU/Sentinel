@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Alembic
+alembic/versions/*.pyc
+
+# Local PostgreSQL data (if we use Docker volumes later)
+postgres_data/
+
+# Node (when frontend is added)
+frontend/node_modules/
+frontend/dist/
